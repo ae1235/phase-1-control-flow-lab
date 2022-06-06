@@ -19,15 +19,12 @@ function ternaryCheckCity(city) {
 }
 
 function switchOnCharmFromTip(tip){
-  let gen1 = generous
   switch(tip){
-    case 'tip === gen1':
-      return "Thank you so much.";
-    case "tip !== gen1" :
-      return   "Bye.";
-     default:
-        return "Thank you";
+    case 'generous':
+    return 'Thank you so much.';
+  case 'not as generous':
+    return 'Thank you.';
+  default:
+    return 'Bye.'; 
   }
 }
-
-  // Write your code here!
